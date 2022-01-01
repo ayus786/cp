@@ -1,4 +1,5 @@
-// use rank to decrease the find function, without rank find()-n with rank the find comp => find()-log(n)
+// path compression already achieves the time complexity O(logn) per call on average.
+// There is a second modification called ranking, that will make it even faster.
 struct DSU
 {
 	vector<int> para, ranks;
